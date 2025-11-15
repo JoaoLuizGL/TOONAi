@@ -1,0 +1,41 @@
+{
+  "empresa": "Tech Solutions Ltda",
+  "fundacao": 2010,
+  "ativa": true,
+  "endereco": {
+    "rua": "Av. Paulista, 1000",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "01310-100"
+  },
+  "telefones": [
+    "(11) 9999-9999",
+    "(11) 8888-8888"
+  ],
+  "departamentos": [
+    {
+      "id": 1,
+      "nome": "Desenvolvimento",
+      "gerente": "João Silva",
+      "funcionarios": 15
+    },
+    {
+      "id": 2,
+      "nome": "Marketing",
+      "gerente": "Maria Santos",
+      "funcionarios": 8
+    }
+  ],
+  "projetos_ativos": [
+    "Sistema de Gestão",
+    "App Mobile",
+    "Portal Corporativo"
+  ],
+  "metas": {
+    "faturamento_anual": 5000000.00,
+    "crescimento": 15.5,
+    "novos_clientes": 50
+  },
+  "tags": ["tecnologia", "inovação", "desenvolvimento", "consultoria"],
+  "observacoes": null
+}
