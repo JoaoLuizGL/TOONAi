@@ -1,0 +1,58 @@
+# .gitignore for AutoTOONe
+# Ignore Visual Studio temporary files, build outputs, and common archives
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Archives (prevent accidentally committing large archives)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+*.xz
+*.bz2
+*.iso
+*.dmg
+
+# Backups and swap files
+*.bak
+*.old
+*~
+*.orig
+
+# Publish / deployment
+publish/
+*.publishsettings
+
+# Misc
+.DS_Store
+Thumbs.db
+ehthumbs.db
