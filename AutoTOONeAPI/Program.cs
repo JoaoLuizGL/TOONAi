@@ -7,10 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Adiciona serviços
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
-        {
-            options.JsonSerializerOptions.ReadCommentHandling = System.Text.Json.JsonCommentHandling.Skip;
-            options.JsonSerializerOptions.AllowTrailingCommas = true;
-        });
+    {
+        options.JsonSerializerOptions.ReadCommentHandling = System.Text.Json.JsonCommentHandling.Skip;
+        options.JsonSerializerOptions.AllowTrailingCommas = true;
+    });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
