@@ -7,6 +7,7 @@ public static class ToonConverter
 {
     public static string ConvertJsonToToon(JsonElement element)
     {
+        Console.WriteLine(element);
         StringBuilder sb = new StringBuilder();
         ProcessarElementoTOON(element, sb, "root", 0);
         return sb.ToString().TrimEnd();

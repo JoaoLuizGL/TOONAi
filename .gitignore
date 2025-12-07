@@ -56,3 +56,31 @@ publish/
 .DS_Store
 Thumbs.db
 ehthumbs.db
+
+# Front-end (AutoTOONeFront)
+# Node modules and build outputs
+AutoTOONeFront/node_modules/
+AutoTOONeFront/dist/
+AutoTOONeFront/build/
+AutoTOONeFront/.cache/
+AutoTOONeFront/.parcel-cache/
+AutoTOONeFront/.turbo/
+AutoTOONeFront/.vite/
+
+# Environment files
+AutoTOONeFront/.env
+AutoTOONeFront/.env.local
+AutoTOONeFront/.env.*.local
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / bundler caches
+AutoTOONeFront/.rollup.cache
+AutoTOONeFront/.esbuild/
+
+# Coverage and test output
+AutoTOONeFront/coverage/
